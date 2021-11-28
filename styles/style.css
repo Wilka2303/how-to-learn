@@ -176,11 +176,13 @@
   flex-wrap: wrap;
 /*  align-content: space-between;*/
   width: 1100px;
+  list-style-type: none;
 }
 
 .table__cell{
   padding-top: 60px;
   width: 250px;
+
 }
 
 .table__heading{
