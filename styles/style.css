@@ -343,14 +343,16 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
-  color: white ;
+  color: white;
 }
+
 .footer__column-links {
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
   padding-top: 20px;
   padding-bottom: 16px;
 }
+
 .footer__column-link {
   color: #FFF;
   text-decoration: none;
