@@ -25,7 +25,7 @@
   position: relative;
   /* выше установили ограничения для секции */
 }
-/*Лого, хотелось бы подробнее про Hover как только ставлю свойство, лого исчезает совсем :/*/
+/*Лого, хотелось бы подробнее про Hover как только ставлю свойство, лого исчезает совсем*/
 .logo_place_header{
   max-width: 100%;
   min-height: 32px;
@@ -337,7 +337,7 @@
   min-height: 350px;
   justify-content: center;
   }
-.footer__column {
+.footer__columns {
   display: flex;
   justify-content: space-around;
   width: 90%;
@@ -346,12 +346,15 @@
   flex-direction: row;
 }
 .footer__column_content_copyright {
+  padding: 0;
   display: flex;
   flex-basis: 711px;
   flex-direction: column;
   justify-content: space-between;
 }
 .logo_place_footer {
+  display: flex;
+  justify-content: flex-start;
   width: 183px;
   height: 35px;
 }
@@ -363,15 +366,18 @@
   padding: 18px 0;
   margin: 0;
 }
-/*.footer__column_content_info {
-
-}*/
+.footer__column_content_info {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
 .footer__column-heading {
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
   color: white;
   margin: 0;
+
 }
 
 .footer__column-links {
@@ -400,9 +406,10 @@
 }
 
 
-/*.footer__column_content_social {
-
-}*/
+.footer__column_content_social {
+  padding: 0;
+    flex-direction: column;
+}
 
 .footer__social-icon{
   padding-right: 10px;
