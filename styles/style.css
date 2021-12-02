@@ -20,6 +20,7 @@
   position: relative;
   /* выше установили ограничения для секции */
 }
+
 /*Лого*/
 .logo_place_header{
   max-width: 100%;
@@ -33,6 +34,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 /*Спасибо, первая практика для следующей проектной работы*/
 .logo_place_header:hover{
   transition: .2s linear .2s;
@@ -107,9 +109,6 @@
   align-content: center;
   justify-content: space-between;
   width: 80%;
-  /*margin-top: 100px;
-  margin-bottom: 100px;*/
-
 }
 
 /* Синий текстик*/
@@ -122,13 +121,11 @@
   padding: 0;
   color:  #2f80ed;
   margin: 0;
-
 }
 
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
-
 }
 
 /*Основной текст*/
@@ -138,9 +135,7 @@
   font-weight: normal;
   font-size: 24px;
   margin: 0;
-  }
-
-
+}
 
 .two-columns__span-accent {
   line-height: 34px;
@@ -182,7 +177,6 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-/*  align-content: space-between;*/
   width: 1100px;
   list-style-type: none;
 }
@@ -292,6 +286,7 @@
   color: #FFF;
   padding-bottom: 90px;
 }
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
@@ -304,7 +299,6 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-/*  padding-bottom: 20px;*/
   margin: 0;
 }
 
@@ -324,7 +318,6 @@
   min-width: 877px;
   background-size: cover;
   right: -210px;
-
 }
 
 .footer {
@@ -389,7 +382,6 @@
   margin: 0;
   padding-left: 0;
   list-style-type: none;
-
 }
 
 .footer__column-link {
@@ -398,7 +390,6 @@
   font-weight: normal;
   color: #FFF;
   text-decoration: none;
-
 }
 
 .footer__column_content_social {
