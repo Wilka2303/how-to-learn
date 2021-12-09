@@ -6,7 +6,7 @@
   z-index: 2;
   text-decoration: none;
   color: #2f80ed;
-  transition: opacity .5s linear .5s ;
+  transition: opacity .5s linear .5s;
 }
 
 .header__link:hover {
