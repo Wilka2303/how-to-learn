@@ -1,0 +1,8 @@
+.video__iframes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px; /*30px блока + 20px position итого 50px от подзаголовка до видео*/
+  position: relative;
+  top: 20px;
+}

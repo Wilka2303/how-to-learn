@@ -1,0 +1,11 @@
+.logo_place_footer {
+  display: flex;
+  justify-content: flex-start;
+  width: 183px;
+  height: 35px;
+  transition: opacity .2s linear .2s;
+}
+
+.logo_place_footer:hover {
+  opacity: .7;
+}

@@ -1,0 +1,17 @@
+.logo_place_header {
+  max-width: 100%;
+  min-height: 32px;
+  min-width: 188px;
+  z-index: 2;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  background-image: url(../../../images/logo_place_header.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: opacity .2s linear .2s;
+}
+
+.logo_place_header:hover {
+  opacity: .7;
+}
